@@ -1,0 +1,19 @@
+<html>
+<head>
+  <meta http-equiv="refresh" content="3;url={%print(path)%}">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link href = "../static/mystyle.css" type="text/css" rel="stylesheet">
+</head>
+  
+<body id = "ca">
+  <h2>[ 현재 식물원의 모습입니다 ]</h2>
+  (사진은 3 초마다 새로고침 됩니다)
+  <hr>
+  <div class="visual">
+    <img src="{{ url_for('static', filename=fname) }}" />
+  </div>
+  <br><br>
+  <form action="/" method="get">
+    <input type="submit" value="돌아가기">
+</body>
+</html>
