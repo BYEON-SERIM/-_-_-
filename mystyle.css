@@ -1,0 +1,50 @@
+body{
+  background-color : #E4EADE;
+  text-align : center;
+}
+hr {
+  border : 3px solid #98A38E;
+}
+.thin{
+  border : 1px solid #98A38E;
+}
+h2{
+  text-align : center;
+  color : #314A34;
+}
+table{
+  margin : auto;
+  text-align : center;
+}
+#ca{
+  text-align : center;
+}
+#camera-form{
+  text-align : center;
+}
+#connection-form{
+  text-align: center;
+}
+#messages{
+  font-weight : bold;
+  text-align : center;
+}
+#warning{
+  text-align : center;
+  color:red;
+}
+#aaa{
+  color:blue;
+}
+#bbb{
+  color:blue;
+}
+#ccc{
+  color:blue;
+}
+.visual{
+  width:100%; margin:0 auto; text-align:center;
+}
+.visual img {
+  max-width: 100%;
+}
