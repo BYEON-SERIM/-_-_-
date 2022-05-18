@@ -14,12 +14,12 @@ mcp = Adafruit_MCP3008.MCP3008(clk=11, cs=8, miso=9, mosi=10) # 조도
 
 # 온도를 측정하는 함수
 def measureTem():
-return float(sensor.temperature)
+  return float(sensor.temperature)
 
 # 습도를 측정하는 함수
 def measureHum():
-return float(sensor.relative_humidity)
+  return float(sensor.relative_humidity)
 
 # 습도를 측정하는 함수
 def measureIllum():
-return mcp.read_adc(0)
+  return mcp.read_adc(0)
